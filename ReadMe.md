@@ -37,7 +37,7 @@ result = post("https://lea.droidtown.co/api", json={
     "username": "LegalTech2022",
     "copytoaster_key": "xG69*bu66!FRj+tCqTw-J8^29aH+Ax",
     "input_str": "請給我關於商標侵權的判決",
-    "curt": "taipei"
+    "curt": "taipei"  #預設為 "taipei", 亦可為以下任一地點： "taoyuan", "hsinchu", "miaoli"...
 })
 if result.status_code == 200:
     # Output
